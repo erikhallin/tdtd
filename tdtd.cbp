@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="tdtd" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Run">
+				<Option output="tdtd" prefix_auto="1" extension_auto="1" />
+				<Option object_output="D:/cpp/tdtd/tdtd - NEW/.objs" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="../tdtd - NEW" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Linker>
+			<Add library="C:/Program Files (x86)/CodeBlocks/MinGW/lib/libSOIL.a" />
+			<Add library="opengl32" />
+			<Add library="glu32" />
+			<Add library="gdi32" />
+			<Add library="C:/Program Files (x86)/CodeBlocks/MinGW/lib/ogg.lib" />
+			<Add library="C:/Program Files (x86)/CodeBlocks/MinGW/lib/OpenAL32.lib" />
+			<Add library="C:/Program Files (x86)/CodeBlocks/MinGW/lib/vorbis.lib" />
+			<Add library="C:/Program Files (x86)/CodeBlocks/MinGW/lib/vorbisenc.lib" />
+			<Add library="C:/Program Files (x86)/CodeBlocks/MinGW/lib/vorbisfile.lib" />
+		</Linker>
+		<Unit filename="big_pixel.cpp" />
+		<Unit filename="big_pixel.h" />
+		<Unit filename="definitions.h" />
+		<Unit filename="game.cpp" />
+		<Unit filename="game.h" />
+		<Unit filename="homebase.cpp" />
+		<Unit filename="homebase.h" />
+		<Unit filename="main.cpp">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="perlinnoise.cpp" />
+		<Unit filename="perlinnoise.h" />
+		<Unit filename="projectile.cpp" />
+		<Unit filename="projectile.h" />
+		<Unit filename="resource.h" />
+		<Unit filename="resource.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Unit filename="ship.cpp" />
+		<Unit filename="ship.h" />
+		<Unit filename="sound.cpp" />
+		<Unit filename="sound.h" />
+		<Unit filename="sound_list.h" />
+		<Unit filename="spawner.cpp" />
+		<Unit filename="spawner.h" />
+		<Unit filename="supply.cpp" />
+		<Unit filename="supply.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

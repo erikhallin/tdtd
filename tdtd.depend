@@ -1,0 +1,109 @@
+# depslib dependency file v1.0
+1524436410 source:d:\cpp\tdtd\tdtd - new\game.cpp
+	"game.h"
+	"definitions.h"
+
+1524436388 d:\cpp\tdtd\tdtd - new\game.h
+	<iostream>
+	<SOIL/SOIL.h>
+	<gl/gl.h>
+	<vector>
+	<string>
+	<ctime>
+	<stdlib.h>
+	<sstream>
+	"ship.h"
+	"projectile.h"
+	"spawner.h"
+	"homebase.h"
+	"supply.h"
+	"definitions.h"
+	"sound.h"
+	"perlinnoise.h"
+	"big_pixel.h"
+
+1524433470 source:d:\cpp\tdtd\tdtd - new\main.cpp
+	<iostream>
+	<stdio.h>
+	<windows.h>
+	<gl/gl.h>
+	<fcntl.h>
+	"game.h"
+	"definitions.h"
+	"resource.h"
+
+1524326889 d:\cpp\tdtd\tdtd - new\ship.h
+	<gl/gl.h>
+	<cmath>
+
+1524428102 d:\cpp\tdtd\tdtd - new\definitions.h
+
+1524388978 source:d:\cpp\tdtd\tdtd - new\ship.cpp
+	"ship.h"
+	"definitions.h"
+
+1524420462 source:d:\cpp\tdtd\tdtd - new\projectile.cpp
+	"projectile.h"
+	"definitions.h"
+
+1524420462 d:\cpp\tdtd\tdtd - new\projectile.h
+	<gl/gl.h>
+	<cmath>
+
+1524331006 d:\cpp\tdtd\tdtd - new\spawner.h
+
+1524389184 d:\cpp\tdtd\tdtd - new\homebase.h
+	<gl/gl.h>
+
+1524414873 source:d:\cpp\tdtd\tdtd - new\spawner.cpp
+	"spawner.h"
+	"definitions.h"
+
+1524389255 source:d:\cpp\tdtd\tdtd - new\homebase.cpp
+	"homebase.h"
+	"definitions.h"
+
+1524325937 d:\cpp\tdtd\tdtd - new\supply.h
+	<stdlib.h>
+	<gl/gl.h>
+
+1524434745 source:d:\cpp\tdtd\tdtd - new\supply.cpp
+	"supply.h"
+	"definitions.h"
+
+1437306172 source:d:\cpp\tdtd\tdtd - new\sound.cpp
+	<stdio.h>
+	"sound.h"
+
+1437303484 d:\cpp\tdtd\tdtd - new\sound.h
+	"sound_list.h"
+	<cstdlib>
+	<vector>
+	<string>
+	<iostream>
+	<fstream>
+	<windows.h>
+	<AL/al.h>
+	<AL/alc.h>
+	<vorbis/vorbisfile.h>
+
+1524436388 d:\cpp\tdtd\tdtd - new\sound_list.h
+
+1433533856 d:\cpp\tdtd\tdtd - new\perlinnoise.h
+
+1433533850 source:d:\cpp\tdtd\tdtd - new\perlinnoise.cpp
+	"perlinnoise.h"
+
+1524390843 d:\cpp\tdtd\tdtd - new\resource.h
+
+1524390843 source:d:\cpp\tdtd\tdtd - new\resource.rc
+	"resource.h"
+
+1524426651 d:\cpp\tdtd\tdtd - new\big_pixel.h
+	<gl/gl.h>
+	<cmath>
+
+1524426839 source:d:\cpp\tdtd\tdtd - new\big_pixel.cpp
+	"big_pixel.h"
+	"definitions.h"
+
